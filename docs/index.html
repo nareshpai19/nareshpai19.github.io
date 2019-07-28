@@ -12,27 +12,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </head>
 
 <body>
-
     <!-- Nav bar START-->
     <div class="navbar-fixed">
-        <nav class="blue lighten-1">
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">Logo</a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#">Programs</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
-        </nav>
+            <nav class="blue darken-4">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo">Pandit Haridas Shenoy Trust</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#">Programs</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Nav bar END-->
+    
+
+    <!--  <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="/images/Naresh.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="/docs/maxresdefault.jpg"></a>
+        <a class="carousel-item" href="#three!"><img src="/docs/maxresdefault.jpg"></a>
+        <a class="carousel-item" href="#four!"><img src="/docs/maxresdefault.jpg"></a>
+        <a class="carousel-item" href="#five!"><img src="/docs/maxresdefault.jpg"></a> 
+    </div>-->
+
+    <div class="carousel carousel-slider center">
+        <div class="carousel-fixed-item center">
+            <a class="btn waves-effect white grey-text darken-text-2">Know More</a>
+        </div>
+        <div class="carousel-item red white-text" href="#one!">
+            <h2>First Panel</h2>
+            <p class="white-text">This is your first panel</p>
+        </div>
+        <div class="carousel-item amber white-text" href="#two!">
+            <h2>Second Panel</h2>
+            <p class="white-text">This is your second panel</p>
+        </div>
+        <div class="carousel-item green white-text" href="#three!">
+            <h2>Third Panel</h2>
+            <p class="white-text">This is your third panel</p>
+        </div>
+        <div class="carousel-item blue white-text" href="#four!">
+            <h2>Fourth Panel</h2>
+            <p class="white-text">This is your fourth panel</p>
+        </div>
     </div>
-    <!-- Nav bar END-->
+
+
 </body>
+
+<script>
+    $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true,
+        duration: 200
+    });
+</script>
 
 </html>
